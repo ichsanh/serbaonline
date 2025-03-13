@@ -23,7 +23,7 @@ const SectionSmartLogistic = () => {
 
       {/* Bagian Kanan - Gambar */}
       <div className="md:w-1/2 flex justify-center">
-        <img src="/img/img-4.png" alt="Smart Logistic" className="w-full max-w-md" />
+        <img src="/serbaonline/img/img-4.png" alt="Smart Logistic" className="w-full max-w-md" />
       </div>
     </div>
   );

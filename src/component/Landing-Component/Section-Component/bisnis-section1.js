@@ -32,7 +32,7 @@ export default function BusinessSection() {
       </div>
       {/* Image Section */}
       <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-        <img src="/img/img-1.png" alt="Business Illustration" className="w-3/4 sm:w-full max-w-md" />
+        <img src="/serbaonline/img/img-1.png" alt="Business Illustration" className="w-3/4 sm:w-full max-w-md" />
       </div>
     </div>
   );

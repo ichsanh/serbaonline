@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-12 w-full">
               {/* Logo di mobile dibuat center */}
               <div className="flex flex-col md:flex-row items-center md:items-start">
-                <img src="/img/logo-serbaonline.png" alt="Logo" className="h-6 mb-2 md:mr-2" />
+                <img src="/serbaonline/img/logo-serbaonline.png" alt="Logo" className="h-6 mb-2 md:mr-2" />
                 <span className="font-bold text-lg text-blue-900 text-center md:text-left">serbaonline.id</span>
               </div>
               {/* Menu Footer */}

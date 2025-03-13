@@ -5,7 +5,7 @@ const HeroBanner = () => {
     <div className="relative w-full h-[600px]">
       {/* Background Image */}
       <img
-        src="/img/Hero Banner.png"
+        src="/serbaonline/img/Hero Banner.png"
         alt="Hero Banner"
         className="w-full h-full object-cover"
       />

@@ -4,22 +4,22 @@ const businessProcesses = [
   {
     title: "Menampilkan Produk",
     description: "Landing Page Builder & Store Builder",
-    image: "/img/pb1.png",
+    image: "/serbaonline/img/pb1.png",
   },
   {
     title: "Menerima Pesanan",
     description: "Checkout Form",
-    image: "/img/pb2.png",
+    image: "/serbaonline/img/pb2.png",
   },
   {
     title: "Mengelola Pesanan",
     description: "Order Management",
-    image: "/img/pb3.png",
+    image: "/serbaonline/img/pb3.png",
   },
   {
     title: "Mengirim Pesanan",
     description: "Logistic",
-    image: "/img/pb4.png",
+    image: "/serbaonline/img/pb4.png",
   },
 ];
 

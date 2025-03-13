@@ -5,7 +5,7 @@ const SectionAutomation = () => {
     <section className="container mx-auto flex flex-col lg:flex-row items-center py-12 px-6">
       <div className="w-full lg:w-1/2 flex justify-center">
         <img 
-          src="/img/img-2.png" 
+          src="/serbaonline/img/img-2.png" 
           alt="Automation Illustration" 
           className="max-w-sm lg:max-w-md"
         />

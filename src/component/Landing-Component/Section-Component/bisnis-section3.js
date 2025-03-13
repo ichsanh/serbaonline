@@ -49,7 +49,7 @@ const SectionThree = () => {
       {/* Gambar */}
       <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
         <img
-          src="/img/img-3.png"
+          src="/serbaonline/img/img-3.png"
           alt="Automation Illustration"
           className="max-w-full h-auto"
         />

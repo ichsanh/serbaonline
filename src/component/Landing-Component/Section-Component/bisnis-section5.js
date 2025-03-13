@@ -1,18 +1,18 @@
 import React from "react";
 
 const banks = [
-  { src: "/img/bca.png", alt: "BCA" },
-  { src: "/img/bni.png", alt: "BNI" },
-  { src: "/img/mandiri.png", alt: "Mandiri" },
-  { src: "/img/permatabank.png", alt: "Permata Bank" },
+  { src: "/serbaonline/img/bca.png", alt: "BCA" },
+  { src: "/serbaonline/img/bni.png", alt: "BNI" },
+  { src: "/serbaonline/img/mandiri.png", alt: "Mandiri" },
+  { src: "/serbaonline/img/permatabank.png", alt: "Permata Bank" },
 ];
 
 const eWallets = [
-  { src: "/img/ovo.png", alt: "OVO" },
-  { src: "/img/dana.png", alt: "DANA" },
-  { src: "/img/gopay.png", alt: "GoPay" },
-  { src: "/img/shopeepay.png", alt: "ShopeePay" },
-  { src: "/img/alfamart.png", alt: "Alfamart" },
+  { src: "/serbaonline/img/ovo.png", alt: "OVO" },
+  { src: "/serbaonline/img/dana.png", alt: "DANA" },
+  { src: "/serbaonline/img/gopay.png", alt: "GoPay" },
+  { src: "/serbaonline/img/shopeepay.png", alt: "ShopeePay" },
+  { src: "/serbaonline/img/alfamart.png", alt: "Alfamart" },
 ];
 
 const PaymentMethodSection = () => {
