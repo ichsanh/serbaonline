@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/serbaonline/static/css/main.80af9b4f.css",
-    "main.js": "/serbaonline/static/js/main.afb0ee50.js",
+    "main.js": "/serbaonline/static/js/main.51dc5916.js",
     "static/js/453.9354f64c.chunk.js": "/serbaonline/static/js/453.9354f64c.chunk.js",
     "index.html": "/serbaonline/index.html",
     "main.80af9b4f.css.map": "/serbaonline/static/css/main.80af9b4f.css.map",
-    "main.afb0ee50.js.map": "/serbaonline/static/js/main.afb0ee50.js.map",
+    "main.51dc5916.js.map": "/serbaonline/static/js/main.51dc5916.js.map",
     "453.9354f64c.chunk.js.map": "/serbaonline/static/js/453.9354f64c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.80af9b4f.css",
-    "static/js/main.afb0ee50.js"
+    "static/js/main.51dc5916.js"
   ]
 }
