@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center py-4 px-6 shadow-md bg-white relative">
       {/* Logo */}
       <div className="flex items-center space-x-2">
-        <img src={'${process.env.PUBLIC_URL}/img/logo-serbaonline.png'} alt="Logo" className="h-6" />
+        <img src="/https://ichsanh.github.io/serbaonline/img/logo-serbaonline.png" alt="Logo" className="h-6" />
         <span className="font-bold text-lg text-blue-900">serbaonline.id</span>
       </div>
 
