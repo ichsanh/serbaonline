@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi"; // Ikon burger & close
 
+const menuItems = ["Fitur", "Harga", "FB ads whitelist", "Blog", "Help Center"];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -19,17 +21,35 @@ const Navbar = () => {
 
       {/* Menu Desktop */}
       <div className="hidden md:flex space-x-6 text-blue-900">
-        <a href="#" className="hover:text-blue-600">Fitur</a>
-        <a href="#" className="hover:text-blue-600">Harga</a>
-        <a href="#" className="hover:text-blue-600">FB ads whitelist</a>
-        <a href="#" className="hover:text-blue-600">Blog</a>
-        <a href="#" className="hover:text-blue-600">Help Center</a>
+        {menuItems.map((item, index) => (
+          <motion.a
+            key={index}
+            href="#"
+            className="relative"
+            whileHover={{ y: -3, opacity: 0.8 }}
+            transition={{ duration: 0.2, ease: "easeInOut" }}
+          >
+            {item}
+          </motion.a>
+        ))}
       </div>
 
       {/* Tombol Login & Daftar (Desktop) */}
       <div className="hidden md:flex space-x-4">
-        <button className="border border-blue-900 px-4 py-1 rounded-md hover:bg-gray-100">Login</button>
-        <button className="bg-blue-900 text-white px-4 py-1 rounded-md hover:bg-blue-700">Daftar</button>
+        <motion.button
+          className="border border-blue-900 px-4 py-1 rounded-md"
+          whileHover={{ scale: 1.05, backgroundColor: "#f1f5f9" }}
+          transition={{ duration: 0.2 }}
+        >
+          Login
+        </motion.button>
+        <motion.button
+          className="bg-blue-900 text-white px-4 py-1 rounded-md"
+          whileHover={{ scale: 1.05, backgroundColor: "#1e40af" }}
+          transition={{ duration: 0.2 }}
+        >
+          Daftar
+        </motion.button>
       </div>
 
       {/* Tombol Burger (Mobile) */}
@@ -47,14 +67,32 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className="absolute top-16 left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center space-y-4 py-6 z-50"
           >
-            <a href="#" className="text-blue-900 hover:text-blue-600">Fitur</a>
-            <a href="#" className="text-blue-900 hover:text-blue-600">Harga</a>
-            <a href="#" className="text-blue-900 hover:text-blue-600">FB ads whitelist</a>
-            <a href="#" className="text-blue-900 hover:text-blue-600">Blog</a>
-            <a href="#" className="text-blue-900 hover:text-blue-600">Help Center</a>
+            {menuItems.map((item, index) => (
+              <motion.a
+                key={index}
+                href="#"
+                className="text-blue-900"
+                whileHover={{ y: -3, opacity: 0.8 }}
+                transition={{ duration: 0.2, ease: "easeInOut" }}
+              >
+                {item}
+              </motion.a>
+            ))}
             <div className="flex flex-col space-y-2 mt-4">
-              <button className="border border-blue-900 px-4 py-1 rounded-md hover:bg-gray-100">Login</button>
-              <button className="bg-blue-900 text-white px-4 py-1 rounded-md hover:bg-blue-700">Daftar</button>
+              <motion.button
+                className="border border-blue-900 px-4 py-1 rounded-md"
+                whileHover={{ scale: 1.05, backgroundColor: "#f1f5f9" }}
+                transition={{ duration: 0.2 }}
+              >
+                Login
+              </motion.button>
+              <motion.button
+                className="bg-blue-900 text-white px-4 py-1 rounded-md"
+                whileHover={{ scale: 1.05, backgroundColor: "#1e40af" }}
+                transition={{ duration: 0.2 }}
+              >
+                Daftar
+              </motion.button>
             </div>
           </motion.div>
         )}
