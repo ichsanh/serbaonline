@@ -18,7 +18,7 @@ const IntegrationSection = () => {
       {/* Bagian Kanan - Gambar */}
       <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
         <img 
-          src="/img/img-5.png" 
+          src="/serbaonline/img/img-5.png" 
           alt="Integrasi dengan Tools Favorit" 
           className="w-full max-w-md"
         />

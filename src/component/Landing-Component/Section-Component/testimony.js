@@ -9,31 +9,31 @@ const testimonials = [
   {
     name: "RAFI ANANDA",
     role: "Entrepreneur & Digital Marketer",
-    image: "/img/rafi.png",
+    image: "/serbaonline/img/rafi.png",
     text: "Ter solusi yang gue butuhin! Gak perlu ribet setting atau beli domain, tapi bisa langsung jualan dengan pemesanan yang praktis...",
   },
   {
     name: "DEVA RAMADHAN",
     role: "Founder & CEO at FastGrow Digital",
-    image: "/img/deva.png",
+    image: "/serbaonline/img/deva.png",
     text: "setelah stuck cukup lama, bisnis gue akhirnya naik lagi setelah pakai platform ini. serius bantu banget buat ngeboost sales!",
   },
   {
     name: "NADIA PUTRI",
     role: "Digital Marketing Specialist",
-    image: "/img/nadia.png",
+    image: "/serbaonline/img/nadia.png",
     text: "Luar biasa! Platform ini bikin funneling jadi super gampang. Fitur Split Test form order-nya keren banget!",
   },
   {
     name: "NADIA PUTRI",
     role: "Digital Marketing Specialist",
-    image: "/img/nadia.png",
+    image: "/serbaonline/img/nadia.png",
     text: "Luar biasa! Platform ini bikin funneling jadi super gampang. Fitur Split Test form order-nya keren banget!",
   },
   {
     name: "NADIA PUTRI",
     role: "Digital Marketing Specialist",
-    image: "/img/nadia.png",
+    image: "/serbaonline/img/nadia.png",
     text: "Luar biasa! Platform ini bikin funneling jadi super gampang. Fitur Split Test form order-nya keren banget!",
   },
 ];
