@@ -3,6 +3,7 @@ import Navbar from "./component/nav";
 import Footer from "./component/footr";
 import LandingPage1 from "./page/landing";
 
+
 function App() {
   return (
     <div className="flex flex-col min-h-screen">

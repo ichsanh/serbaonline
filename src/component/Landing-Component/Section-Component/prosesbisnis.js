@@ -43,7 +43,7 @@ const BusinessProcessSection = () => {
       {/* Garis putus-putus di belakang kartu */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-0.5 border-dashed border-2 border-gray-300 z-0"></div>
       
-      <div className="flex justify-center gap-x-[50px] flex-wrap relative z-10">
+      <div className="flex justify-center gap-x-[50px] gap-y-[15px] flex-wrap relative z-10">
         {businessProcesses.map((process, index) => (
           <BusinessProcessCard key={index} {...process} />
         ))}
