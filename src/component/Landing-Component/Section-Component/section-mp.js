@@ -1,11 +1,11 @@
 import React from "react";
 
 const shippingLogos = [
-  "/img/jne.png",
-  "/img/jnt.png",
-  "/img/sap.png",
-  "/img/ninja.png",
-  "/img/idex.png",
+  "/serbaonline/img/jne.png",
+  "/serbaonline/img/jnt.png",
+  "/serbaonline/img/sap.png",
+  "/serbaonline/img/ninja.png",
+  "/serbaonline/img/idex.png",
 ];
 
 const PaymentShippingSection = () => {
